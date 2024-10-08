@@ -197,3 +197,21 @@ img {
 a {
     color: inherit;
 }
+
+@media (max-width: 600px) {
+    img {
+        width: 100%;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1200) {
+    img {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1201px) {
+    img {
+        width: 60%;
+    }
+}
